@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu with Hamburger</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <h1>About</h1>
+    </header>
+    <nav class="navbar">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="products.html">Products</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Product 1</a></li>
+                    <li><a href="#">Product 2</a></li>
+                    <li><a href="#">Product 3</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector(".hamburger");
+            const menu = document.querySelector(".menu");
+
+            hamburger.addEventListener("click", function () {
+                menu.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>

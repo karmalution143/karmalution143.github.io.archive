@@ -1,0 +1,28 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: calc(50% - 10px); /* Adjust the width of each product */
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 5px;
+}
