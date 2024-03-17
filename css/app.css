@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #333;
+    background: #575252;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1.08em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 header {
     width: 100%;
@@ -15,6 +18,11 @@ header {
     color: #333;
     padding: 300px;
     text-align: center;
+}
+body {
+    width: 100%;
+    min-height: 700px;
+    padding: 30px 100px;
 }
 nav {
     display: flex;
@@ -28,4 +36,37 @@ nav a {
     text-decoration: none;
     background-color: transparent;
     font-size: 30px;
+}
+.Calligraffitti {
+    font-family: "Calligraffitti", cursive;
+    font-size: 2.1em;
+    font-weight: 400;
+    font-style: normal;
+}
+.Dancing {
+    font-family: "Dancing Script", cursive;
+    font-size: 2.1em;
+    font-weight: 400;
+    font-style: normal;
+}
+#.code-box {
+    background-color: #f4f4f4;
+    border: .5px solid #ccc;
+    padding: 5px;
+    margin: 20px 0;
+    overflow-x: auto;
+    text-align: left;
+}
+#.code-box pre {
+    margin: 0;
+}
+
+.code-box code {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1em;
+        color: #fff;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: left;
+        width: 100%;
 }
