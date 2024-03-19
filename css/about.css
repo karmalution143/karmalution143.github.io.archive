@@ -22,7 +22,7 @@ header {
 body {
     width: 100%;
     min-height: 700px;
-    padding: 13px 100px;
+    padding: 30px 100px;
 }
 nav {
     display: flex;
